@@ -1,0 +1,27 @@
+{
+  "name": "SardiniaCaseus2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rael1411/SardiniaCaseus2.git"
+  },
+  "keywords": [],
+  "author": "Alessio Barria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rael1411/SardiniaCaseus2/issues"
+  },
+  "homepage": "https://github.com/rael1411/SardiniaCaseus2#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
