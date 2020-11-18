@@ -1,9 +1,13 @@
-import './style.css';
-function component(){
-    const element = document.createElement("div");
-    element.textContent="hello"
-    element.classList.add("hello");
-    return element;
-}
-console.log("dsafadsfa");
-document.body.appendChild(component());
+import "./reset.css";
+import "./style.css";
+
+let products = [
+  "../src/assets/images/casizolu.jpg",
+  "../src/assets/images/fresina.jpg",
+  "../src/assets/images/margara2.jpg"
+];
+const itemContainer = document.getElementById("item-container");
+const product = document.createElement("img");
+product.classList.add("gallery-item");
+product.setAttribute("src", products[2]);
+itemContainer.appendChild(product);
