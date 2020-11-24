@@ -1,6 +1,7 @@
 import "./reset.css";
 import "./style.css";
 
+
 // product object constructor
 function Product(url, name) {
   this.url = url;
